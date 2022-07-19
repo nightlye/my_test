@@ -1,0 +1,15 @@
+$$
+\left[ \begin{matrix}
+	\sigma _{xx}&		\tau _{xy}\\
+	\tau _{yx}&		\sigma _{yy}\\
+\end{matrix} \right] \left[ \begin{matrix}
+	\sigma _{xx}&		\tau _{xy}&		\tau _{xz}\\
+	\tau _{yx}&		\sigma _{yy}&		\tau _{yz}\\
+	\tau _{zx}&		\tau _{zy}&		\sigma _{zz}\\
+\end{matrix} \right] \frac{\partial ^2u}{\partial x\partial y}
+\\
+\left[ \begin{matrix}
+	\sigma _{xx}&		\tau _{xy}\\
+	\tau _{yx}&		\sigma _{yy}\\
+\end{matrix} \right] \text{哈哈哈哈哈}
+$$
