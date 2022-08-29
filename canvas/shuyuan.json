@@ -1,0 +1,49 @@
+{
+    "bookSourceUrl": "https://18comic.vip",
+    "bookSourceType": "0",
+    "bookSourceName": "禁漫天堂JM",
+    "bookSourceGroup": "漫画",
+    "bookSourceComment": "",
+    "loginUrl": "https://18comic.vip/signup",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "",
+    "bookUrlPattern": "",
+    "searchUrl": "/search/photos?main_tag=0&search_query={{key}}&page={{page}}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1661751667410,
+    "ruleSearch": {
+        "checkKeyWord": "3D",
+        "bookList": "div.p-b-15",
+        "name": "span.video-title@text",
+        "author": "@div.title-truncate:nth-of-type(2)@a:nth-of-type(1)@text",
+        "kind": "div.tags@text",
+        "coverUrl": "img.img-responsive@tag.img@data-original",
+        "bookUrl": ".thumb-overlay > a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "h1.book-name@text",
+        "author": ".col-xs-12@div.tag-block:nth-of-type(5)@text",
+        "kind": ".col-xs-12@div.tag-block:nth-of-type(4)@text",
+        "wordCount": "p.float-right@text",
+        "lastChapter": ".col-xs-12@tag.a.-1@li@text",
+        "intro": ".col-xs-12.col-lg-7@div.p-t-5@text",
+        "coverUrl": ".thumb-overlay@img.lazy_img@src",
+        "tocUrl": "@href"
+    },
+    "ruleToc": {
+        "chapterList": ".visible-lg@.btn-toolbar@a",
+        "chapterName": "@li@text",
+        "chapterUrl": "@href"
+    },
+    "ruleContent": {
+        "content": "div.center.scramble-page@img@data-original@js:\nvar array = result.split(\"\\n\");\narray = array.map(x=>\"<img src=\\\"\"+x+\"\\\">\");\nresult=\"<div id=\\\"pic\\\">\\n\"+array.join(\"\\n\")+\"\\n</div>\"",
+        "nextContentUrl": ".hidden-xs@a.prevnext@href"
+    }
+}
